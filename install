@@ -1,0 +1,5 @@
+#!/bin/bash
+cp -v logrotate.conf /etc/logrotate.d/amqconnector
+cp -v amqconnector.conf /etc/amqconnector.conf && chmod 0640 /etc/amqconnector.conf
+cp -v amqconnector.pl /usr/local/bin/amqconnector.pl
+
